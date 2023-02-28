@@ -22,7 +22,7 @@ for (let i = 1; i < imageList.length + 1; i++) {
 
 
 //sidebar creatore img
-let sliderOpacity= "";
+let sliderOpacity = "";
 
 for (let i = 1; i < imageList.length + 1; i++) {
     let sliderOpacityDone = `<img  class="sideImg" src="img/0${i}.webp" alt="img">`;
@@ -59,7 +59,7 @@ buttonNextDom.addEventListener('click', function () {
         callImg[start].classList.add("show");
         imgSide[start].classList.add("removeOpacity")
     }
- 
+
 })
 
 buttonPrevDom.addEventListener('click', function () {
@@ -71,10 +71,10 @@ buttonPrevDom.addEventListener('click', function () {
     }
     else {
         callImg[start].classList.remove("show");
-        start = imageList.length -1;
+        start = imageList.length - 1;
         callImg[start].classList.add("show");
     }
- 
+
 })
 
 
