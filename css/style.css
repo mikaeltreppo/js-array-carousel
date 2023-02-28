@@ -67,5 +67,5 @@
     filter: opacity(0.5);
 }
 .removeOpacity{
-    filter: none;
+    filter: opacity(1);
 }
