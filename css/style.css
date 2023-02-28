@@ -7,15 +7,16 @@
     display: none;
 }
 .container {
-    width: 60%;
+    width: 80%;
     height: 80vh;
-    background-color: blue;
+    background-color:black;
     margin: 10vh auto;
     position: relative;
+    display: flex;
 }
 /*------immagini-------*/
 .imgSpace {
-    width: 100%;
+    width: 90%;
     height: 100%;
 }
 
@@ -52,4 +53,19 @@
     bottom: 15px;
     right: 50%;
     transform: translate(50%);
+}
+/*-----side bonus 2----*/
+.side{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+}
+.sideImg{
+    height: calc(100% / 5);
+    object-fit: cover;
+    filter: opacity(0.5);
+}
+.removeOpacity{
+    filter: none;
 }
