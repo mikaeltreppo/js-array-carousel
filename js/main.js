@@ -66,13 +66,17 @@ buttonPrevDom.addEventListener('click', function () {
 
     if (start > 0) {
         callImg[start].classList.remove("show");
+        imgSide[start].classList.remove("removeOpacity")
         start--;
         callImg[start].classList.add("show");
+        imgSide[start].classList.add("removeOpacity")
     }
     else {
         callImg[start].classList.remove("show");
+        imgSide[start].classList.remove("removeOpacity")
         start = imageList.length - 1;
         callImg[start].classList.add("show");
+        imgSide[start].classList.add("removeOpacity")
     }
 
 })
